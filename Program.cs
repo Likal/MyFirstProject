@@ -6,10 +6,11 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-           int x = 10;
-           double y = 20;
+        string yourName;
+        Console.WriteLine("What is your name?");
 
-           Console.WriteLine("x = {0}; y = {1};", x,y);
+        yourName = Console.ReadLine();
+        Console.WriteLine("Hello {0}", yourName);
         }
     }
 }
