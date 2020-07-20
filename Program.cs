@@ -6,11 +6,11 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-        string yourName;
-        Console.WriteLine("What is your name?");
+            Console.WriteLine("How old are you?");
+      int age = Convert.ToInt32(Console.ReadLine());
+      
 
-        yourName = Console.ReadLine();
-        Console.WriteLine("Hello {0}", yourName);
+      Console.WriteLine("You are {0} years old", age);
         }
     }
 }
