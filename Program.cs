@@ -6,8 +6,10 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-           int x = 89;
-           Console.WriteLine(x);   
+           int x = 10;
+           double y = 20;
+
+           Console.WriteLine("x = {0}; y = {1};", x,y);
         }
     }
 }
