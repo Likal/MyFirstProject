@@ -6,10 +6,8 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-            string myName = "Lisa";
-            Console.WriteLine("Hello " + myName);
-
-            
+           int x = 89;
+           Console.WriteLine(x);   
         }
     }
 }
