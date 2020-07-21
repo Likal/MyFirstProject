@@ -6,16 +6,15 @@ namespace MyFirstProject
     {
      static void Main(string[] args)
      {
-       int x = 8;
-       int y = 3;
+       int mark = 85;
 
-        //you can omit the curly braces if there is only one block of code if you wish.
-        //if (x > y)
-        //Console.WriteLine("x is greater than y");
-
-       if (x > y)
+       if (mark < 50) //if is if its true
        {
-         Console.WriteLine("x is greater than y");
+         Console.WriteLine("You failed.");
+       }
+       else //Else is if its false.
+       {
+         Console.WriteLine("You passed.");
        }
      }
         
